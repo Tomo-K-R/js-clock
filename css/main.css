@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#clock {
+    background-image: linear-gradient(to right, #ff881b, #ee4d5f, #5650de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    text-align: center;
+}
